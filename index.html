@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Radio Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="radio-container">
+    <h1>🎧 Web Radio</h1>
+
+    <div class="radio-display">
+      <div class="channel-info" id="channel-name">Channel 1</div>
+      <input type="range" id="channel-slider" min="0" value="0" step="1" />
+    </div>
+
+    <div class="controls">
+      <button id="play-btn">▶️ Play</button>
+      <button id="pause-btn">⏸️ Pause</button>
+    </div>
+
+    <div class="channel-list">
+      <div class="channel" data-index="0">Channel 1</div>
+      <div class="channel" data-index="1">Channel 2</div>
+      <div class="channel" data-index="2">Channel 3</div>
+      <div class="channel" data-index="3">Channel 4</div>
+      <div class="channel" data-index="4">Channel 5</div>
+    </div>
+  </div>
+
+  <audio id="audio-player" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
