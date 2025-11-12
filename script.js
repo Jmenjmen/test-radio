@@ -8,23 +8,23 @@ const channels = document.querySelectorAll('.channel');
 const stationList = [
   {
     name: 'Channel 1',
-    src: 'music/test.mp3'
+    src: 'music/test1.mp3'
   },
   {
     name: 'Channel 2',
-    src: 'music/test.mp3'
+    src: 'music/test2.mp3'
   },
   {
     name: 'Channel 3',
-    src: 'music/test.mp3'
+    src: 'music/test3.mp3'
   },
   {
     name: 'Channel 4',
-    src: 'music/test.mp3'
+    src: 'music/test4.mp3'
   },
   {
     name: 'Channel 5',
-    src: 'music/test.mp3'
+    src: 'music/test5.mp3'
   }
 ];
 
